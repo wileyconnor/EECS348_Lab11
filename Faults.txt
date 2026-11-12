@@ -1,0 +1,11 @@
+1. Fault
+The fault in the program is that it begins at i = 1 while the for loop adds before the iteration is done with ++1 so it never does the absent count for the first lecture.
+2. 
+There are no test cases that don't execute the fault as it is executed the same on the first lecture to the last lecture
+3. 
+All test cases where the person goes to the first lecture will be correct as the program only faults at the first lecture being missed
+4. 
+A test case that results in an error state would be one where the person does not go to the first lecture, while its not counted it could result in states where the person would fail to not fail.
+5.
+A test case that results in a failure would be one where the first lecture is missed alongside two other, but it would only have two counted as missed lectures, making our function a failure.
+
